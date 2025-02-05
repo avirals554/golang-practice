@@ -2,16 +2,20 @@ package main
 
 import "fmt"
 func main(){
-
-	greeting := Greet()
+	greeting := Greet("eng")
 	fmt.Println(greeting)
-
 }
-
-func Greet() string{
-
-
-return "hello";
+type language string
+func Greet( l language) string{
+ switch l {
+ case "eng":
+  return "hello"
+ case"fr":
+  return"Bonjour le monde"
+default:
+  return""
+   
+ }
 }
 
 
