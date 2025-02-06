@@ -1,11 +1,20 @@
 package main 
-import "fmt"
+import (
+  "fmt"
+  "flag"
+)
+type language string 
  func main()  {
-  greeting :=Greet("eng")
+
+  var lang string
+  flag.StringVar(&lang,"lang","eng","the required language")
+  flag.Parse()
+
+   greeting :=Greet(language(lang))
    fmt.Println(greeting)
 
  }
-type language string
+
 var phrasebook =map[language]string{
  "eng" : "hello world",
  "fr"  : "bonjour le monde",
