@@ -7,7 +7,7 @@ type language string
  func main()  {
 
   var lang string
-  flag.StringVar(&lang,"lang","eng","the required language")
+  flag.StringVar(&lang,"language","eng","the required language")
   flag.Parse()
 
    greeting :=Greet(language(lang))
