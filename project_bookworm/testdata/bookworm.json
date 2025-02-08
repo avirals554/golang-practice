@@ -1,0 +1,53 @@
+[
+    {
+    "name": "Aviral",
+    "books": [
+        
+    {
+    "author": "George orwell",
+    "title": "1984"
+    },
+
+    {
+    "author": "Albert Caumus",
+    "title": "The Stranger"
+    }
+    ]
+    },
+
+        {
+        "name": "Bhushan",
+        "books": [
+
+        {
+        "author": "Fyodor Dostoevsky",
+        "title": "crime and punishment"
+        },
+
+        {
+        "author": "Fyodor Dostoevsky",
+        "title": "the white nights"
+        }
+
+        ]
+
+
+        },
+
+
+        {
+            "name": "Aditya raj",
+            "books": [
+            {
+            "author": "Chetan Bhagat",
+            "title": "2 states"
+            },
+            {
+            "author": "Alex Michaelides",
+            "title": "The Silent Patient"
+            }
+            ]
+        }     
+
+            
+]
